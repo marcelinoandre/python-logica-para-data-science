@@ -1,0 +1,22 @@
+# class aluno
+
+class aluno:
+  def __init__(self, matricula, nome):
+    self.matricula = matricula
+    self.nome = nome
+    print(self)
+
+  def matricular(self):
+    print(f'Aluno {self.nome} matriculado')
+
+Jose = aluno('123','Andre Marcelino')    
+
+print(f'Aluno: {Jose.nome}')
+print(f'Matricula {Jose.matricula}')
+
+Jose.matricular()
+
+
+
+
+
